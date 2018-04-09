@@ -1,0 +1,55 @@
+@font-face {
+    src: url('../fonts/The-Blacksmith.ttf');
+    font-family: 'Blacksmith';
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header h1 {
+    font-family: 'Blacksmith';
+    font-size: 3rem;
+    text-align: center;
+}
+
+header {
+    margin: 2em 0 .5em 0;
+}
+
+.catContainer h2,
+.dogContainer h2 {
+    margin-left: .5rem;
+}
+
+.catContainer,
+.dogContainer {
+    background-color: rgb(247, 247, 247);
+    padding: 2em 0;
+    margin: 2em 0;
+    box-shadow: 0 5px 10px #bbbbbb;
+}
+
+.catContainer .photoList,
+.dogContainer .photoList {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: initial;
+    width: 100vw;
+    overflow-x: scroll;
+    align-items: baseline;
+    margin: 2em 0 0 0;
+}
+
+.photoList div a {
+    width: 11.5em;
+    height: 10em;
+    background-size: cover;
+    display: block;
+    margin: .5em;
+}
+
+.photoList div p {
+    margin: 0 .5rem 0 1rem;
+}
