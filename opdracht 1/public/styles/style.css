@@ -6,6 +6,8 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(63, 63, 63);
 }
 
 header h1 {
@@ -18,17 +20,34 @@ header {
     margin: 2em 0 .5em 0;
 }
 
-.catContainer h2,
-.dogContainer h2 {
+.catContainer h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2.3rem;
+    font-weight: 300;
+    color: rgb(63, 63, 63)
+}
+
+.catContainer span {
+    font-family: 'Blacksmith';
+    font-size: 2.5rem;
+}
+
+.catContainer h3,
+.dogContainer h3 {
     margin-left: .5rem;
 }
 
 .catContainer,
 .dogContainer {
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(245, 245, 245);
     padding: 2em 0;
     margin: 2em 0;
     box-shadow: 0 5px 10px #bbbbbb;
+}
+
+.catContainer {
+    background-color: #a1e4ff;
 }
 
 .catContainer .photoList,
@@ -39,7 +58,7 @@ header {
     width: 100vw;
     overflow-x: scroll;
     align-items: baseline;
-    margin: 2em 0 0 0;
+    margin: .5em 0 0 0;
 }
 
 .photoList div a {
