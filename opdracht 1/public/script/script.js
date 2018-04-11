@@ -24,6 +24,19 @@
             if (window.location.hash == urlHash) {
                 const highlightedImage = document.querySelector('.highlightedImage')
                 highlightedImage.setAttribute('src', 'public/images/' + (urlHash.split('#')[1]) + '.jpg')
+                
+                const text = document.querySelector('.highlightedText'),
+                    header = document.querySelector('.highlightedTitle')
+
+                if (window.location.hash == '#hond9') {
+                    console.log(window.location.hash)
+                    header.innerHTML = 'Frans Bauer'
+                    text.innerHTML = "Wait, this isn't a cute animal. Can someone tell Frans to get of my website?"
+                } 
+                else {
+                    header.innerHTML = 'This is a cute animal'
+                    text.innerHTML = "This is an image of a cute animal. It is really cute."
+                }
             }
         })
     })
