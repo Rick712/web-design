@@ -11,5 +11,8 @@
     for (var i = 0; i < dogImage.length; i++) {
         dogImage[i].style.backgroundImage = 'url("public/images/hond' + (i + 1) + '.jpg")'
     }
+
+    const featuredImage = document.querySelector('.featuredImage')
+    featuredImage.style.backgroundImage = 'url("https://i.imgur.com/xkKw5r8.jpg")'
     
 })()

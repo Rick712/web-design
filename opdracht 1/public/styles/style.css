@@ -20,6 +20,43 @@ header {
     margin: 2em 0 .5em 0;
 }
 
+.featured {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    margin: 8rem auto;
+}
+
+.featured h2 {
+    font-size: 30px;
+}
+
+.featured h3,
+.featured p {
+    font-weight: 300;
+    margin: 1rem 0;
+}
+
+.featured h3 {
+    font-weight: 500;
+}
+
+.featured p {
+    margin: 1rem 0;
+    line-height: 1.7rem;
+}
+
+.featured a {
+    width: 40vw;
+    padding-bottom: 50%;
+    display: inline-block;
+    background-size: cover;
+}
+
+.featured div:nth-of-type(2) {
+    margin-left: 2rem;
+}
+
 .catContainer h2 {
     text-align: center;
     margin-bottom: 1rem;
