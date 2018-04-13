@@ -29,6 +29,7 @@ What I mainly changed, is that I made some content more important than other con
 
 ### Test two
 I did the second test after I adapted the website based on the results of the first test. The user didn't really have any problem with using the website, other than he remarked that the website didn't really have interactivity.
+He knew the pictures were clickable, but someone that doesn't know that the pictures are clickable might not know how to used the website.
 
 <br/>
   <img src="https://i.imgur.com/wbzgX4k.png" alt="Image of the website" height="auto" width="600" style="margin: 2em auto; display: block; margin: 0 auto;">
