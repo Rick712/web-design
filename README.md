@@ -2,8 +2,8 @@
 This project is made to train myself to make better looking websites
 
 - **[About this project](#about-this-project)**  
+- **[Testing and adaptations](#Testing-and-adaptations)**
 - **[Design Principles](#installing)**  
-- **[Testing and adaptations](#Testing and adaptations)**
 
 <br/>
   <img src="https://i.imgur.com/1tpqCrH.png" alt="Image of the website" height="auto" width="600" style="margin: 2em auto; display: block; margin: 0 auto;">
