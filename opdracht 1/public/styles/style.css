@@ -12,7 +12,7 @@
 
 header h1 {
     font-family: 'Blacksmith';
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
 }
 
@@ -51,6 +51,7 @@ header {
     padding-bottom: 50%;
     display: inline-block;
     background-size: cover;
+    transition: transform .3s ease;
 }
 
 .featured div:nth-of-type(2) {
@@ -98,6 +99,7 @@ header {
     background-size: cover;
     display: block;
     margin: 0 auto;
+    transition: transform .3s ease;
 }
 
 .photoList div p {
@@ -118,7 +120,16 @@ header {
 .gallery .photoList a {
     margin: 1rem;
     width: 12rem;
+    margin-bottom: 1.7rem;
     padding-bottom: 12rem;
+    transition: 
+        transform .3s ease;
+}
+
+.gallery .photoList a:hover,
+.featured a:hover,
+.photoList div a:hover {
+    transform: scale(1.08);
 }
 
 .gallery h2 {
