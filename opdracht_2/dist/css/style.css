@@ -20,6 +20,7 @@
   --main-color: #ffcc00;
   --second-color: #000000;
   --header-font: 'Source Code Bold';
+  --header-font-regular: 'Source Code';
   --main-font: 'Open Sans';
   --main-font-bold: 'Open Sans Bold'; }
 
@@ -41,10 +42,127 @@ h3 {
 
 /*                  Header                      */
 header {
-  background-color: var(--main-color); }
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: .8rem; }
+  header nav ul {
+    display: flex;
+    align-items: flex-end;
+    height: 100%; }
+    header nav ul li a {
+      font-family: var(--header-font);
+      padding: .5rem 1.5rem;
+      font-size: 18px; }
 
 header h1:before {
   content: '<h1>'; }
 
 header h1:after {
   content: '</h1>'; }
+
+.big-header {
+  background-image: url("../../images/headerimgblack.png");
+  background-size: cover;
+  padding: 0; }
+  .big-header div {
+    width: 80%;
+    margin: 0 auto;
+    padding: 8.3rem 0; }
+    .big-header div h2 {
+      font-size: 30px;
+      width: 50%;
+      color: var(--main-color);
+      display: block; }
+      .big-header div h2 span {
+        display: block;
+        color: var(--main-color);
+        font-size: 100px;
+        font-family: var(--header-font);
+        line-height: .9em;
+        white-space: pre-line;
+        margin-left: -10px; }
+        .big-header div h2 span span {
+          margin-left: 4px; }
+    .big-header div p {
+      margin: 2rem 0 3rem 0;
+      color: white;
+      width: 45%;
+      font-size: 20px;
+      line-height: 1.5em; }
+    .big-header div a {
+      background-color: var(--main-color);
+      margin: 2rem 0;
+      padding: 1rem 3rem;
+      border-radius: 20px;
+      font-family: var(--header-font);
+      font-size: 30px; }
+
+#section_intro,
+#section_inhoud,
+#section_vakken,
+#section_info {
+  padding: 8rem 0; }
+  #section_intro > div,
+  #section_inhoud > div,
+  #section_vakken > div,
+  #section_info > div {
+    width: 50%;
+    margin: 0 auto;
+    padding: .5rem 0; }
+    #section_intro > div p,
+    #section_inhoud > div p,
+    #section_vakken > div p,
+    #section_info > div p {
+      padding: .5rem 0; }
+  #section_intro .div_quote,
+  #section_inhoud .div_quote,
+  #section_vakken .div_quote,
+  #section_info .div_quote {
+    background-color: black;
+    padding-bottom: 4rem;
+    position: relative;
+    margin-top: 2rem; }
+    #section_intro .div_quote blockquote,
+    #section_inhoud .div_quote blockquote,
+    #section_vakken .div_quote blockquote,
+    #section_info .div_quote blockquote {
+      color: white;
+      margin: 2rem 2rem 0 2rem;
+      line-height: 1.7rem;
+      padding-top: 2rem;
+      font-family: var(--header-font-regular); }
+    #section_intro .div_quote p,
+    #section_inhoud .div_quote p,
+    #section_vakken .div_quote p,
+    #section_info .div_quote p {
+      color: white;
+      font-family: 'Source Code Bold';
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      margin: 0 2rem 2rem 0; }
+  #section_intro h2,
+  #section_inhoud h2,
+  #section_vakken h2,
+  #section_info h2 {
+    font-size: 80px;
+    width: 20%;
+    position: sticky;
+    top: 10rem;
+    margin-left: 2rem; }
+
+#section_intro .intro {
+  margin-top: -6rem; }
+
+#section_inhoud .inhoud {
+  margin-top: -19rem; }
+
+#section_vakken .vakken {
+  margin-top: -12rem; }
+
+#section_info .info {
+  margin-top: -25rem; }
+
+section:nth-of-type(2n+1) {
+  background-color: var(--main-color); }
