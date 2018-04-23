@@ -1,0 +1,66 @@
+/*                  Fonts                       */
+@font-face {
+    font-family: 'Source Code';
+    src: url('../fonts/SourceCodePro-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Source Code Bold';
+    src: url('../fonts/SourceCodePro-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url('../fonts/OpenSans-Bold.ttf');
+}
+
+/*                  Variables                   */
+:root {
+    --main-color: #ffcc00;
+    --second-color: #000000;
+    --header-font: 'Source Code Bold';
+    --main-font: 'Open Sans';
+    --main-font-bold: 'Open Sans Bold';
+}
+
+
+/*                  Global CSS                  */
+html * {
+    font-family: var(--main-font);
+    margin: 0;
+    padding: 0;
+    color: var(--second-color);
+    list-style-type: none;
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    font-family: var(--header-font);
+}
+
+h3 {
+    font-family: var(--main-font-bold);
+}
+
+/*                  Header                      */
+header {
+    background-color: var(--main-color);
+}
+
+header h1:before {
+    content: '<h1>';
+}
+
+header h1:after {
+    content: '</h1>';
+}
+
+header nav {
+    
+}
