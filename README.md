@@ -86,3 +86,12 @@ This change resulted in that the next test subject looked at the content header 
 Something that I changed as well was the header of the text. I made them a lot more bigger than they were, and they were now sticky to the page. I also removed the icons on the page, since they didn't really add anything to the page.
 
 ## Interface principles
+
+For this course, we had to inplement a few of the [19 Design Principles](http://bokardo.com/principles-of-user-interface-design/) by Joshua Porter.
+The ones I inplemented are:
+
+- Clarity is job
+- One primary action per screen
+- Strong visual hierarchies work best
+
+These ones are the ones that I primarily focussed on. The other 16 are implemented as well, but are less noticeable.
