@@ -19,9 +19,15 @@
     src: url('../fonts/OpenSans-Bold.ttf');
 }
 
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url('../fonts/OpenSans-Light.ttf');
+}
+
 /*                  Variables                   */
 :root {
     --main-color: #ffcc00;
+    --main-color-light: #ffe476;
     --second-color: #000000;
     --header-font: 'Source Code Bold';
     --header-font-regular: 'Source Code';
@@ -50,6 +56,7 @@ h3 {
 }
 
 /*                  Header                      */
+
 header {
     background-color: white;
     display: flex;
@@ -88,14 +95,14 @@ header h1:after {
         margin: 0 auto;
         padding: 8.3rem 0;
         h2 {
-            font-size: 30px;
+            font-size: 25px;
             width: 50%;
             color: var(--main-color);
             display: block;
             span {
                 display: block;
                 color: var(--main-color);
-                font-size: 100px;
+                font-size: 107px;
                 font-family: var(--header-font);
                 line-height: .9em;
                 white-space: pre-line;
@@ -111,6 +118,7 @@ header h1:after {
             width: 45%;
             font-size: 20px;
             line-height: 1.5em;
+            font-family: 'Open Sans Light'
         }
         a {
             background-color: var(--main-color);
@@ -118,10 +126,12 @@ header h1:after {
             padding: 1rem 3rem;
             border-radius: 20px;
             font-family: var(--header-font);
-            font-size: 30px;
+            font-size: 20px;
         }
     }
 }
+
+/*                  sections                      */
 
 #section_intro,
 #section_inhoud,
@@ -181,6 +191,51 @@ header h1:after {
 #section_vakken {
     .vakken {
         margin-top: -12rem;
+        div {
+
+            details {
+                margin-bottom: 1rem;
+
+                summary {
+                    font-family: 'Source Code Bold';
+                    background-color: var(--main-color);
+                    font-size: 20px;
+                    padding: 1rem;
+                    
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+
+                summary ~ * {
+                    animation: sweep .3s ease-in;
+                }
+
+                div {
+                    padding: 1rem;
+                    background-color: var(--main-color);
+
+                    h3:nth-of-type(1),
+                    p {
+                        padding-top: 0;
+                    }
+
+                    ol li {
+                        list-style-type: decimal;
+                        margin-left: 1.1rem;
+                    }
+                }    
+            }
+        }
+    }
+}
+
+@keyframes sweep {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }
 
@@ -192,4 +247,15 @@ header h1:after {
 
 section:nth-of-type(2n+1) {
     background-color: var(--main-color);
+}
+
+/*                  footer                      */
+
+footer {
+    background-color: rgb(0, 0, 0);
+    padding: 1rem 0;
+    p {
+        color: white;
+        text-align: center;
+    }
 }

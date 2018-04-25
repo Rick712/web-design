@@ -8,6 +8,4 @@
             })
         })
     })
-
-    console.log('jha;;adf')
 })()
