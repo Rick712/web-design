@@ -1,57 +1,88 @@
 # Web design
-This project is made to train myself to make better looking websites
 
-- **[About this project](#about-this-project)**  
-- **[Testing and adaptations](#testing-and-adaptations)**
-- **[Design Principles](#design-principles)**  
+This is the repo of the course Web Design. The goal of the course is to make better looking websites and a website that is usefull for a specific user.
 
-<br/>
-  <img src="https://i.imgur.com/1tpqCrH.png" alt="Image of the website" height="auto" width="600" style="margin: 2em auto; display: block; margin: 0 auto;">
-<br/>
+- **[About this project](#about-this-project)**
+- **[User scenario](#user-scenario)**
+- **[Content](#content)**
+- **[First design](#first-design)**
+- **[Test](#test)**
+- **[Iterations](#iterations)**
+- **[Interface Principles](#interface-principles)**
 
 ## About this project
-The goal of the website is to view cute pictures of animals. The site is entirely made in HMTL/CSS/JS without any frameworks or libraries.
 
-## Testing and adaptations
-Part of the excercise was to test your website to a potential user, and adapt the website based on the results.
+The goal of this project was to train myself to make better looking websites, and to make an usefull website for a specific user, in my case a blind person and a student who maybe wants to do the minor next year. The website itself is about the minor I'm currently doing.
 
-### Test one
-The results of the website was pretty clear, it was a bit of a mess. The user lost himself in the content, and didn't really know what the purpose was, and what the most important content was.
-What I mainly changed, is that I made some content more important than other content.
+## User scenario
 
-<br/>
-  <img src="https://i.imgur.com/1tpqCrH.png" alt="Image of the website" height="auto" width="600" style="margin: 2em auto; display: block; margin: 0 auto;">
-<br/>
+I had to make two user scenario's for this course. The user scenario's are:
 
-<br/>
-  <img src="https://i.imgur.com/r7m4Lpb.png" alt="Image of the website" height="auto" width="600" style="margin: 2em auto; display: block; margin: 0 auto;">
-<br/>
+- I want information about the minor that I'm interested in
+- I want information about a minor that my university is giving and check if the website is accessible
 
-### Test two
-I did the second test after I adapted the website based on the results of the first test. The user didn't really have any problem with using the website, other than he remarked that the website didn't really have interactivity.
-He knew the pictures were clickable, but someone that doesn't know that the pictures are clickable might not know how to used the website.
+The first user scenario is for a user that I made up. The person is currently in the second year of the course, and has to choose a minor in the following months. The student has interest in Front-End Development, and possibly wants to do the minor next year. The needs of this user are:
 
-<br/>
-  <img src="https://i.imgur.com/wbzgX4k.png" alt="Image of the website" height="auto" width="600" style="margin: 2em auto; display: block; margin: 0 auto;">
-<br/>
+- Relevant and up-to-date information
+- Information about the courses
+- Information about the requirements
+- Contact information
+- Information about how to sign up
 
-It is not really noticable, but if you look closely, you can see that the second picture on the upper row is a bit bigger than the rest. This gets triggered when the user hovers on the picture. This works with all pictures
+The second user scenario is a user scenario for Larissa. For this course, we got assigned a user with a handicap. I got Larissa. Larissa is a blind student that did the minor UX at the HvA. She uses a screenreader to navigate through the website. She deeply wants to increase the accessibility of the whole campus and the courses. Part of this are the websites of the courses and minors. Her user needs are:
 
-## Design Principles
-For the project, we had to implement at least 3 of the 19 Design Principles by Paul Rand: http://bokardo.com/principles-of-user-interface-design/
+- Relevant information about the minor
+- Content that is easy to nagivate through
 
-The Design Principles I implemented are:
-- 1 Clarity is job
-- 10 Consistency matters
-- 11 Strong visual hierarchies work best
+## Content
 
-<br/>
-  <img src="https://i.imgur.com/r7m4Lpb.png" alt="Image of the website" height="auto" width="600" style="margin: 2em auto; display: block; margin: 0 auto;">
-<br/>
+For both the users, the content is the most important part of the website. For the student that maybe wants to do the minor, he needs relevant information that answers the questions he possibly has. For Larissa, it is more a matter of how the content is structured. When the content is badly structured, it is hard for her to navigate through the website.
 
-### Clarity is job
-I think my website is very clear in what the purpose is. The user recognizes the used patters of the gallery.
+For the made up person, I asked myself what questions I had when I learned about this minor. I also asked some of my classmates what they wanted to know about the minor when they had to choose a minor. There were a lot of similar questions we had, including:
 
-<br/>
-  <img src="https://i.imgur.com/4Q4ZK8q.png" alt="Image of the website" height="auto" width="600" style="margin: 2em auto; display: block; margin: 0 auto;">
-<br/>
+- What are we going to do at the minor?
+- What are we going to learn at the minor?
+- What are the requirements?
+- How can I sign up?
+- When does the minor start?
+
+An interesting outcome was, that the students really valued the opinion of students that already did the minor. A student values the opinion of another student higher that the opinion of a teacher.
+
+I managed to order the questions the students had, and seperated them in 4 parts:
+
+- Introduction
+- Content of the minor
+- Courses of the minor
+- (meta)Information about the minor
+
+## First design
+
+The style I chose to apply to my website is the style of the course CMD. The minor is part of the course CMD, and style appears regularly in the minor. The colour scheme is mostly yellow (#FFCC00), black and white.
+For the header font I used Source Code Pro, and for the regular text I used Open Sans.
+
+![The first design](https://i.imgur.com/coGXfDO.png)
+
+## Test
+
+After I made the first design, I tested the design. What I noticed, was that the navigation header was noticed before the content header, while this is not my intention. The content header should have been noticed before the navigation. The yellow of the navigation made it more visually appealing than the content header.
+What I noticed then, was that the headers of the text just didn't really work out the way I intended them to. It was kinda ugly, but I didn't notice it when I first made the design.
+
+![The block quote](https://i.imgur.com/BKPXudF.png)
+
+What did work out pretty good, was the fact that the quote from students stood out from the rest of the content, which was my intention.
+
+I also noticed that the content was alright. The test subject could easily find the information he was looking for.
+
+## Iterations
+
+After the test I changed some things to the design. I made the content header visually more important than the navigation header.
+
+![Iteration to the first design](https://i.imgur.com/ibeMQKM.png)
+
+This change resulted in that the next test subject looked at the content header before the navigation, which was the reason I changed it. But I still wasn't really done with the header. I didn't like the fact that the whole header was the same font-size, since the word 'Front-End Developer' is way more imporant than the rest, so I changed that as well.
+
+![Iteration to the first design](https://i.imgur.com/XrCdq9o.png)
+
+Something that I changed as well was the header of the text. I made them a lot more bigger than they were, and they were now sticky to the page. I also removed the icons on the page, since they didn't really add anything to the page.
+
+## Interface principles
