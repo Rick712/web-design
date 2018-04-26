@@ -2,6 +2,8 @@
 
 This is the repo of the course Web Design. The goal of the course is to make better looking websites and a website that is usefull for a specific user.
 
+A link to the website can be found [here](https://rick712.github.io/web-design/opdracht_2/)
+
 - **[About this project](#about-this-project)**
 - **[User scenario](#user-scenario)**
 - **[Content](#content)**
