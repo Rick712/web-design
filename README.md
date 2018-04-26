@@ -73,6 +73,12 @@ What did work out pretty good, was the fact that the quote from students stood o
 
 I also noticed that the content was alright. The test subject could easily find the information he was looking for.
 
+### Test with Larissa
+
+A link to the video can be found [here](https://www.youtube.com/watch?v=5UB6eq1Ddzo).
+
+In the video you can see that Larissa had a hard time finding out she was in a section with all the courses of the minor, and said that she would like to see that it had a label, containing information about the section she is in, so I added an Aria label to the section.
+
 ## Iterations
 
 After the test I changed some things to the design. I made the content header visually more important than the navigation header.

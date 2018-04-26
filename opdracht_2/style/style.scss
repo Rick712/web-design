@@ -205,6 +205,10 @@ header h1:after {
                     &:hover {
                         cursor: pointer;
                     }
+
+                    &[open] {
+                        background-color: red;
+                    }
                 }
 
                 summary ~ * {
