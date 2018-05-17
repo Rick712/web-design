@@ -170,6 +170,8 @@ header {
       padding: 1rem; }
       #section_vakken .vakken div details summary:hover {
         cursor: pointer; }
+      #section_vakken .vakken div details summary[open] {
+        background-color: red; }
     #section_vakken .vakken div details summary ~ * {
       animation: sweep .3s ease-in; }
     #section_vakken .vakken div details div {

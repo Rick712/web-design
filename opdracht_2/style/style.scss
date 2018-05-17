@@ -78,14 +78,6 @@ header {
     }
 }
 
-header h1:before {
-    content: '<h1>';
-}
-
-header h1:after {
-    content: '</h1>';
-}
-
 .big-header {
     background-image: url('../../images/headerimgblack.png');
     background-size: cover;
