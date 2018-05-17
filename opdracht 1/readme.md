@@ -56,7 +56,15 @@ The Design Principles I implemented are:
 
 ### Clarity is job
 
-I think my website is very clear in what the purpose is. The user recognizes the used patters of the gallery.
+I think my website is very clear in what the purpose is. The user recognizes the used patters of the gallery, and easely knows what he can do on the page.
+
+### Consistency matters
+
+Every picture, except for the featured picture, has the same size and the same hover transition, which is very consitent. Every normal text has the same font family, but only the headers are bigger and have a higher font weight. Ther margin between the pictures are roughly the same.
+
+### Strong visual hierarchies work best
+
+When you visit the page, the header really attracts attention from the user. The next thing that attracts attention is the featured picture of the day, and then the header of the featured picture of the day. The attention flow is logical, and is exactly as I intended it to be. Also, the featured animal of the day is visually more appealing than the All pictures part.
 
 <br/>
   <img src="https://i.imgur.com/4Q4ZK8q.png" alt="Image of the website" height="auto" width="600" style="margin: 2em auto; display: block; margin: 0 auto;">
