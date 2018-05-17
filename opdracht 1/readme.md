@@ -1,9 +1,10 @@
 # Web design
+
 This project is made to train myself to make better looking websites
 
-- **[About this project](#about-this-project)**  
+- **[About this project](#about-this-project)**
 - **[Testing and adaptations](#testing-and-adaptations)**
-- **[Design Principles](#design-principles)**  
+- **[Design Principles](#design-principles)**
 
 ![Image of the website](https://i.imgur.com/1tpqCrH.png)
 
