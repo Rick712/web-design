@@ -8,4 +8,11 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-console.log('jha;;adf')
+const studentAlert = document.querySelector('.alert')
+
+const alertStudent = function() {
+    console.log('hallo')
+    studentAlert.style.right = '0'
+}
+
+setTimeout(alertStudent, 1500)

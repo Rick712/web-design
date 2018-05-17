@@ -31,7 +31,7 @@
     --second-color: #000000;
     --header-font: 'Source Code Bold';
     --header-font-regular: 'Source Code';
-    --main-font: 'Open Sans';
+    --main-font: 'Open Sans'; 
     --main-font-bold: 'Open Sans Bold';
 }
 
@@ -76,14 +76,6 @@ header {
             }
         }
     }
-}
-
-header h1:before {
-    content: '<h1>';
-}
-
-header h1:after {
-    content: '</h1>';
 }
 
 .big-header {
@@ -261,5 +253,64 @@ footer {
     p {
         color: white;
         text-align: center;
+    }
+}
+
+/*                  alert                      */
+
+.alert {
+    position: fixed;
+    top: 10rem;
+    right: calc(-30vw - 8rem);
+    transition:
+        right 1s ease-in-out;
+    width: 30vw;
+    background-color: var(--main-color);
+    padding: 2rem;
+    z-index: 9;
+    box-shadow: 0 5px 15px rgba(46, 46, 46, 0.596);
+
+    h3 {
+        margin-bottom: 1rem;
+        line-height: 1.5em;
+    }
+
+    p {
+        line-height: 1.7em;
+    }
+
+    a:nth-of-type(1) {
+        font-size: 25px;
+        font-family: var(--main-font-bold);
+        position: absolute;
+        top: .1rem;
+        left: .6rem;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    a:nth-of-type(2) {
+        font-family: var(--main-font-bold);
+        margin-top: 1rem;
+        display: block;
+    }
+}
+
+.project {
+    div {
+        h2 {
+            span {
+                span {
+                    font-size: 170px;
+                    margin-left: -4px;
+                }
+            }
+        }
+
+        p {
+            margin-top: -40px;
+            margin-bottom: 0;
+        }
     }
 }

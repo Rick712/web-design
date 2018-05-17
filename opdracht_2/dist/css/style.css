@@ -170,6 +170,8 @@ header {
       padding: 1rem; }
       #section_vakken .vakken div details summary:hover {
         cursor: pointer; }
+      #section_vakken .vakken div details summary[open] {
+        background-color: red; }
     #section_vakken .vakken div details summary ~ * {
       animation: sweep .3s ease-in; }
     #section_vakken .vakken div details div {
@@ -201,3 +203,40 @@ footer {
   footer p {
     color: white;
     text-align: center; }
+
+/*                  alert                      */
+.alert {
+  position: fixed;
+  top: 10rem;
+  right: calc(-30vw - 8rem);
+  transition: right 1s ease-in-out;
+  width: 30vw;
+  background-color: var(--main-color);
+  padding: 2rem;
+  z-index: 9;
+  box-shadow: 0 5px 15px rgba(46, 46, 46, 0.596); }
+  .alert h3 {
+    margin-bottom: 1rem;
+    line-height: 1.5em; }
+  .alert p {
+    line-height: 1.7em; }
+  .alert a:nth-of-type(1) {
+    font-size: 25px;
+    font-family: var(--main-font-bold);
+    position: absolute;
+    top: .1rem;
+    left: .6rem; }
+    .alert a:nth-of-type(1):hover {
+      cursor: pointer; }
+  .alert a:nth-of-type(2) {
+    font-family: var(--main-font-bold);
+    margin-top: 1rem;
+    display: block; }
+
+.project div h2 span span {
+  font-size: 170px;
+  margin-left: -4px; }
+
+.project div p {
+  margin-top: -40px;
+  margin-bottom: 0; }
