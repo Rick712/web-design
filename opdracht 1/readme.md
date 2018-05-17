@@ -5,7 +5,7 @@ This project is made to train myself to make better looking websites
 - **[Testing and adaptations](#testing-and-adaptations)**
 - **[Design Principles](#design-principles)**  
 
-![Image of the website](Image of the websitehttps://i.imgur.com/1tpqCrH.png)
+![Image of the website](https://i.imgur.com/1tpqCrH.png)
 
 ## About this project
 
