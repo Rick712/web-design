@@ -6,6 +6,12 @@ This project is made to train myself to make better looking websites
 - **[Testing and adaptations](#testing-and-adaptations)**
 - **[Design Principles](#design-principles)**
 
+## Feedback
+
+| Feedback:  | Er wordt niet uitgelegd hoe de principes worden toegepast |                                   |
+|------------|-----------------------------------------------------------|-----------------------------------|
+| Oplossing: | Nu wel (kijk onderaan de readme)                          | Ik heb de stijl ook wat verbeterd |
+
 ![Image of the website](https://i.imgur.com/1tpqCrH.png)
 
 ## About this project
