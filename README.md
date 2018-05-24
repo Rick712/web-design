@@ -15,8 +15,7 @@ A link to the website can be found [here](https://rick712.github.io/web-design/o
 
 ## Herkansing
 
-Voor de herkansing heb ik het een en ander veranderd. Als eerst heb ik de user scenario iets specifieker gemaakt. De user scenario is nu:
-'Een 2e jaars CMD student aan de HvA die halverwege het jaar zich alvast wil oriënteren op een minor. De student heeft affiniteit met Front-End Development'
+Voor de herkansing heb ik het een en ander veranderd. Als eerst heb ik de user scenario iets specifieker gemaakt. De user scenario is nu: **Een 2e jaars CMD student aan de HvA die halverwege het jaar zich alvast wil oriënteren op een minor. De student heeft affiniteit met Front-End Development**
 
 Ik heb de user scenario specifieker gemaakt omdat het dan makkelijker is om te bepalen wat voor vragen de student heeft, omdat ik zelf ook in die situatie heb gezeten, en met mij nog vele anderen.
 
@@ -26,7 +25,7 @@ Wat ik heb bedacht is een soort pop-up, die triggerd anderhalve seconde nadat ee
 
 ![Screenshot van de pop-up](https://i.imgur.com/H8rNXVK.png)
 
-De screenshot richt zich puur op 2e jaars CMD studenten. De pop-up geeft aan aansluitende informatie te hebben voor deze doelgroep. De pop-up is fixed, en is makkelijk weg te klikken. Wanneer een student op 'Lees meer' klikt, opent er een nieuwe pagina.
+De screenshot richt zich puur op 2e jaars CMD studenten. De pop-up geeft aan aansluitende informatie te hebben voor deze doelgroep. De pop-up is fixed, en is makkelijk weg te klikken. Wanneer een student op 'Lees meer' klikt, opent de onderstaande pagina.
 
 ![Informatie voor 2e jaars studenten](https://i.imgur.com/pQlstRz.png)
 
