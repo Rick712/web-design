@@ -27,4 +27,17 @@
 
         setTimeout(alertStudent, 1500)
     }
+
+    const projecten = document.querySelectorAll('.project-choice a')
+    if(projecten) {
+        window.addEventListener('hashchange', function () {
+            projecten.forEach(function (project) {
+                project.addEventListener('click', function() {
+                    if(window.location.href === this.href) {
+                        console.log('halo')
+                    }
+                })
+            })
+        })
+    }
 })()
