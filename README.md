@@ -42,6 +42,20 @@ Wanneer het project niet goed aansluit (in alle gevallen behalve bij project Tec
 
 ![Informatie voor Visual studenten](https://i.imgur.com/lttb9sd.png)
 
+### Uitleg principes
+
+#### Clarity is job
+
+Vanaf het moment dat de gebruiker op de website is het gelijk duidelijk waar de website over gaat, en wat er te vinden is. Niets voor niets staat er gigantisch 'Frond-End Developers' in beeld. Het is niet te missen dat de website gaat over de minor Web Development.
+
+#### Strong visual hierarchies work best
+
+Zoals ik bij het vorige puntje ook al aangaf staat er gigantisch 'Front-End Developers' in beeld, en het groot maken van belangrijke content gebruik ik over de hele website. Alle titels zijn groot en altijd in beeld wanneer het desbetreffende deel in beeld is.
+
+#### One primary action per screen
+
+Wanneer de gebruiker informatie leest over een bepaald onderwerp (intro, inhoud, vakken, etc...) is dat ook het enige wat in beeld is. De gebruiker wordt tijdens het lezen niet afgeleid door andere content anders dan de content waar hij over aan het lezen is.
+
 ## About this project
 
 The goal of this project was to train myself to make better looking websites, and to make an usefull website for a specific user, in my case a blind person and a student who maybe wants to do the minor next year. The website itself is about the minor I'm currently doing.
