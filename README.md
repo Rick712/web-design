@@ -54,7 +54,7 @@ Zoals ik bij het vorige puntje ook al aangaf staat er gigantisch 'Front-End Deve
 
 #### One primary action per screen
 
-Wanneer de gebruiker informatie leest over een bepaald onderwerp (intro, inhoud, vakken, etc...) is dat ook het enige wat in beeld is. De gebruiker wordt tijdens het lezen niet afgeleid door andere content anders dan de content waar hij over aan het lezen is.
+Wanneer de gebruiker informatie leest over een bepaald onderwerp (intro, inhoud, vakken, etc...) is dat ook het enige wat in beeld is. De gebruiker wordt tijdens het lezen niet afgeleid door andere content anders dan de content waar hij over aan het lezen is (behalve wanneer de pop-up in beeld komt, maar daar is het juist de bedoeling dat de gebruiker het leest).
 
 ## About this project
 
