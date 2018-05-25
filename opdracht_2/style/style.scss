@@ -31,11 +31,11 @@
     --second-color: #000000;
     --header-font: 'Source Code Bold';
     --header-font-regular: 'Source Code';
-    --main-font: 'Open Sans';
+    --main-font: 'Open Sans'; 
     --main-font-bold: 'Open Sans Bold';
 }
 
-
+ 
 /*                  Global CSS                  */
 html * {
     font-family: var(--main-font);
@@ -46,7 +46,11 @@ html * {
     text-decoration: none;
 }
 
-h1,
+body {
+    scroll-behavior: smooth;
+}
+
+h1 a,
 h2 {
     font-family: var(--header-font);
 }
@@ -76,6 +80,10 @@ header {
             }
         }
     }
+}
+
+.cmd {
+    background-image: url('../../images/cmd.jpg') !important;
 }
 
 .big-header {
@@ -136,27 +144,33 @@ header {
         padding: .5rem 0;
         p {
             padding: .5rem 0;
+            line-height: 1.7rem;
         }
     }
     .div_quote {
         background-color: black;
-        padding-bottom: 4rem;
+        padding: 2em;
         position: relative;
         margin-top: 2rem;
         blockquote {
             color: white;
-            margin: 2rem 2rem 0 2rem;
             line-height: 1.7rem;
-            padding-top: 2rem;
+            margin-top: 1rem;
             font-family: var(--header-font-regular);
         }
         p {
-            color: white;
-            font-family: 'Source Code Bold';
-            position: absolute;
-            bottom: 0; 
-            right: 0;
-            margin: 0 2rem 2rem 0;
+            color: var(--main-color);
+            font-size: 22px;
+            font-family: 'Source Code Bold'; 
+            margin: 0;
+            margin-bottom: 0;
+        }
+        a {
+            color: var(--main-color);
+            font-family: 'Open Sans Bold';
+            word-spacing: 5px;
+            margin-top: 1rem;
+            display: block;
         }
     }
     h2 {
@@ -253,5 +267,128 @@ footer {
     p {
         color: white;
         text-align: center;
+    }
+}
+
+/*                  alert                      */
+
+.alert {
+    position: fixed;
+    top: 10rem;
+    right: calc(-30vw - 8rem);
+    transition:
+        right 1s ease-in-out;
+    width: 30vw;
+    background-color: var(--main-color);
+    padding: 2rem;
+    z-index: 9;
+    box-shadow: 0 5px 15px rgba(46, 46, 46, 0.596);
+
+    h3 {
+        margin-bottom: 1rem;
+        line-height: 1.5em;
+    }
+
+    p {
+        line-height: 1.7em;
+    }
+
+    a:nth-of-type(1) {
+        font-size: 25px;
+        font-family: var(--main-font-bold);
+        position: absolute;
+        top: .1rem;
+        left: .6rem;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    a:nth-of-type(2) {
+        font-family: var(--main-font-bold);
+        margin-top: 1rem;
+        display: block;
+    }
+}
+
+.project {
+    div {
+        h2 {
+            span {
+                span {
+                    font-size: 170px;
+                    margin-left: -4px;
+                }
+            }
+        }
+
+        p {
+            margin-top: -40px;
+            margin-bottom: 0;
+        }
+    }
+}
+.projecten-section {
+    background-color: var(--main-color);
+    h2 {
+        text-align: center;
+        padding: 3rem 0;
+        font-size: 3rem;
+    }
+    .project-choice {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+
+        a {
+            text-align: center;
+            padding: 2rem;
+            font-family: 'Open Sans Bold';
+        }
+    }
+}
+
+.projecten {
+    section {
+        display: none;
+        animation: fadeOut .5s ease-in-out;
+        background-color: white;
+        width: 35rem;
+        margin: 5rem auto;
+
+        p {
+            margin: 1rem 0;
+            line-height: 1.7rem;
+        }
+    }
+}
+
+#tech:target,
+#visual:target,
+#concept:target,
+#interaction:target {
+    display: block !important;
+    position: relative;
+    animation: fadeIn .5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        top: 1rem;
+    }
+    100% {
+        opacity: 1;
+        top: 0;
+    }  
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        top: 0;
+    }
+    100% {
+        opacity: 0;
+        top: 1rem;
     }
 }

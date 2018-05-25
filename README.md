@@ -4,6 +4,7 @@ This is the repo of the course Web Design. The goal of the course is to make bet
 
 A link to the website can be found [here](https://rick712.github.io/web-design/opdracht_2/)
 
+- **[Herkansing](#herkansing)**
 - **[About this project](#about-this-project)**
 - **[User scenario](#user-scenario)**
 - **[Content](#content)**
@@ -11,6 +12,48 @@ A link to the website can be found [here](https://rick712.github.io/web-design/o
 - **[Test](#test)**
 - **[Iterations](#iterations)**
 - **[Interface Principles](#interface-principles)**
+
+## Herkansing
+
+Voor de herkansing heb ik het een en ander veranderd. Als eerst heb ik de user scenario iets specifieker gemaakt. De user scenario is nu: **Een 2e jaars CMD student aan de HvA die halverwege het jaar zich alvast wil oriënteren op een minor. De student heeft affiniteit met Front-End Development**
+
+Ik heb de user scenario specifieker gemaakt omdat het dan makkelijker is om te bepalen wat voor vragen de student heeft, omdat ik zelf ook in die situatie heb gezeten, en met mij nog vele anderen.
+
+Een 2e jaars student die halverwege het jaar zit, heeft een aantal maanden geleden een keuzeproject gekozen, en die gaat bijna beginnen, of is net begonnen. Als de student project Tech heeft gekozen, dan zal hij waarschijnlijk minder informatie nodig hebben over de minor dan wanneer hij niet project Tech heeft gekozen. Hier wil ik op inspelen in mijn website.
+
+Wat ik heb bedacht is een soort pop-up, die triggerd anderhalve seconde nadat een gebruiker op de website komt.
+
+![Screenshot van de pop-up](https://i.imgur.com/H8rNXVK.png)
+
+De screenshot richt zich puur op 2e jaars CMD studenten. De pop-up geeft aan aansluitende informatie te hebben voor deze doelgroep. De pop-up is fixed, en is makkelijk weg te klikken. Wanneer een student op 'Lees meer' klikt, opent de onderstaande pagina.
+
+![Informatie voor 2e jaars studenten](https://i.imgur.com/pQlstRz.png)
+
+Deze pagina geeft meer uitleg over de minor specifiek voor 2e jaars CMD studenten.
+
+![Screenshot van de pagina die vraagt welk project de student gaat volgen](https://i.imgur.com/FwAPeKb.png)
+
+De gebruiker kan zijn of haar project aanklikken. De website laat dan informatie zien over de aansluiting van zijn of haar project op de minor.
+
+![Informatie voor Tech studenten](https://i.imgur.com/8Muyhlf.png)
+
+Wanneer het project niet goed aansluit (in alle gevallen behalve bij project Tech) zal de website dit aangeven, maar ook wat de student als voordeel heeft op Tech studenten. Ook geeft de website een tip over het leren van de basis van Node.JS
+
+![Informatie voor Visual studenten](https://i.imgur.com/lttb9sd.png)
+
+### Uitleg principes
+
+#### Clarity is job
+
+Vanaf het moment dat de gebruiker op de website is het gelijk duidelijk waar de website over gaat, en wat er te vinden is. Niets voor niets staat er gigantisch 'Frond-End Developers' in beeld. Het is niet te missen dat de website gaat over de minor Web Development.
+
+#### Strong visual hierarchies work best
+
+Zoals ik bij het vorige puntje ook al aangaf staat er gigantisch 'Front-End Developers' in beeld, en het groot maken van belangrijke content gebruik ik over de hele website. Alle titels zijn groot en altijd in beeld wanneer het desbetreffende deel in beeld is.
+
+#### One primary action per screen
+
+Wanneer de gebruiker informatie leest over een bepaald onderwerp (intro, inhoud, vakken, etc...) is dat ook het enige wat in beeld is. De gebruiker wordt tijdens het lezen niet afgeleid door andere content anders dan de content waar hij over aan het lezen is (behalve wanneer de pop-up in beeld komt, maar daar is het juist de bedoeling dat de gebruiker het leest).
 
 ## About this project
 

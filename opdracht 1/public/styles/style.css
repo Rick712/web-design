@@ -12,8 +12,9 @@
 
 header h1 {
     font-family: 'Blacksmith';
-    font-size: 4rem;
+    font-size: 6rem;
     text-align: center;
+    margin-top: 5rem;
 }
 
 header {
@@ -25,6 +26,7 @@ header {
     display: flex;
     align-items: center;
     margin: 8rem auto;
+    margin-top: 6rem;
 }
 
 .featured h2 {
@@ -43,7 +45,7 @@ header {
 
 .featured p {
     margin: 1rem 0;
-    line-height: 1.7rem;
+    line-height: 2.2rem;
 }
 
 .featured a {
@@ -62,7 +64,7 @@ header {
     text-align: center;
     margin-bottom: 3rem;
     margin-top: 1rem;
-    font-size: 2.3rem;
+    font-size: 30px;
     font-weight: 300;
     color: rgb(63, 63, 63)
 }
@@ -85,12 +87,12 @@ header {
     display: flex;
     flex-wrap: nowrap;
     align-content: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-grow: initial;
-    width: 100vw;
+    width: 80vw;
     overflow-x: scroll;
     align-items: baseline;
-    margin: .5em 0 0 0;
+    margin: 0 auto;
 }
 
 .photoList div a {
@@ -103,7 +105,9 @@ header {
 }
 
 .photoList div p {
-    margin: 1rem 1rem;
+    margin: 1rem 0;
+    line-height: 1.8rem;
+    font-weight: 300;
 }
 
 .gallery {
@@ -120,7 +124,7 @@ header {
 .gallery .photoList a {
     margin: 1rem;
     width: 12rem;
-    margin-bottom: 1.7rem;
+    margin-bottom: 1.6rem;
     padding-bottom: 12rem;
     transition: 
         transform .3s ease;
@@ -130,6 +134,10 @@ header {
 .featured a:hover,
 .photoList div a:hover {
     transform: scale(1.08);
+}
+
+.photoList > div {
+    padding: 0 1rem;
 }
 
 .gallery h2 {
