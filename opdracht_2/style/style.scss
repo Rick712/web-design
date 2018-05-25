@@ -50,7 +50,7 @@ body {
     scroll-behavior: smooth;
 }
 
-h1,
+h1 a,
 h2 {
     font-family: var(--header-font);
 }
@@ -144,27 +144,33 @@ header {
         padding: .5rem 0;
         p {
             padding: .5rem 0;
+            line-height: 1.7rem;
         }
     }
     .div_quote {
         background-color: black;
-        padding-bottom: 4rem;
+        padding: 2em;
         position: relative;
         margin-top: 2rem;
         blockquote {
             color: white;
-            margin: 2rem 2rem 0 2rem;
             line-height: 1.7rem;
-            padding-top: 2rem;
+            margin-top: 1rem;
             font-family: var(--header-font-regular);
         }
         p {
-            color: white;
-            font-family: 'Source Code Bold';
-            position: absolute;
-            bottom: 0; 
-            right: 0;
-            margin: 0 2rem 2rem 0;
+            color: var(--main-color);
+            font-size: 22px;
+            font-family: 'Source Code Bold'; 
+            margin: 0;
+            margin-bottom: 0;
+        }
+        a {
+            color: var(--main-color);
+            font-family: 'Open Sans Bold';
+            word-spacing: 5px;
+            margin-top: 1rem;
+            display: block;
         }
     }
     h2 {
